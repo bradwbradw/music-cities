@@ -1,0 +1,33 @@
+{
+  "name": "music-cities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradwbradw/music-cities.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradwbradw/music-cities/issues"
+  },
+  "homepage": "https://github.com/bradwbradw/music-cities#readme",
+  "dependencies": {
+    "browser-sync": "^2.24.4",
+    "connect": "^3.6.6",
+    "connect-history-api-fallback": "^1.5.0",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "lodash": "^4.17.10",
+    "request-promise": "^4.2.2",
+    "serve-static": "^1.13.2",
+    "vhost": "^3.0.2",
+    "when": "^3.7.8"
+  }
+}
