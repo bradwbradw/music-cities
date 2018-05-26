@@ -10,7 +10,7 @@ const when = require('when');
 const url = "https://do604.com/events/2018/05/19.json";
 
 app.get('/', (req, res) => {
-  res.send('hii')
+  res.sendFile(path.join(__dirname,"music-cities","app.html"))
 });
 
 app.use(express.static('music-cities'));
